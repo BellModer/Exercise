@@ -1,0 +1,155 @@
+/*重置样式*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.w {
+	position: relative;
+	height: 100px;
+	background-color: white;
+	box-shadow: inset 0 2px 2px rgba(0, 0, 0, .075), 0 0 8px #000000;
+}
+
+.w .logo {
+	position: relative;
+	float: left;
+	width: auto;
+	height: 150px;
+}
+
+.w img {
+	height: 100px;
+}
+
+.logo b {
+	display: block;
+	font-size: 30px;
+	color: #000000;
+	position: absolute;
+	right: -148px;
+	bottom: 60px;
+}
+
+.bot {
+	width: 1519px;
+	position: absolute;
+	top: 580px;
+	height: 200px;
+	padding-top: 30px;
+	background-image: linear-gradient(#DDDDDD, #EEEEEE);
+}
+
+.text {
+	background-color: transparent;
+}
+
+.f_list,
+a,
+span {
+	background-color: transparent;
+}
+
+.f_list {
+	text-align: center;
+}
+
+.f_list a {
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 100;
+}
+
+.text p,
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.text p {
+	font-size: 10px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.text p a:hover {
+	background-color: #ADD8E6;
+	color: white;
+}
+
+.body {
+	height: 371px;
+	background-image: url(img/19.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.login_bottom a {
+	color: white;
+	line-height: 20px;
+	font-weight: 300;
+}
+
+.login_bottom {
+	position: relative;
+	top: -32px;
+	right: -53px;
+}
+
+input {
+	background-color: transparent;
+	height: 31px;
+	width: 210px;
+	color: black;
+}
+
+button {
+	width: 200px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 8px;
+	border: none;
+	background-color: #DC143C;
+	outline: none;
+}
+
+button a {
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+button:hover {
+	background-color: #DC143C;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #DC143C;
+}
+
+input:hover {
+	border: 2px solid #DC143C;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #DC143C;
+}
+
+.form {
+	position: absolute;
+	left: 520px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.form h3 {
+	font-size: 25px;
+	width: 350px;
+	height: 40px;
+	margin: 20px auto;
+}
+
+.form span {
+	font-weight: 200;
+	font-family: "arial narrow";
+}
+
+.bot p {
+	margin-top: 10px;
+}

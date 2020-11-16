@@ -1,0 +1,440 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #EEEEEE;
+}
+
+.top_nav {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: dimgray;
+}
+
+.top_nav li {
+	float: right;
+}
+
+.top_nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	background-color: dimgray;
+}
+
+.top_nav li a:hover {
+	background-color: #66AFE9;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #D1D1D1;
+	margin-top: 50px;
+	height: 200px;
+	width: 600px;
+	z-index: 2;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.drop_lf1 {
+	height: 200px;
+	width: auto;
+	float: left;
+	background-color: transparent;
+}
+
+.drop_lf1 dl {
+	margin-top: 20px;
+	display: block;
+	height: 180px;
+	width: 100px;
+	float: left;
+	background-color: transparent;
+}
+
+.drop_lf1 dl.zuo,
+dl.zuo1 {
+	margin-top: 40px;
+}
+
+.drop_lf1 dl.you {
+	border-right: 1px solid #DDDDDD;
+}
+
+.drop_lf1 dd,
+dt {
+	background-color: transparent;
+}
+
+.drop_lf1 dt {
+	margin-left: 10px;
+}
+
+.drop_lf1 a {
+	font-size: 13px;
+	line-height: 8px;
+	font-weight: 100;
+	color: #D1D1D1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.w {
+	margin: auto;
+	height: 230px;
+	background-color: white;
+	border-bottom: 3px solid #DC143C;
+}
+
+.logo {
+	float: left;
+	width: 220px;
+	height: 200px;
+	margin-left: 30px;
+}
+
+#logo {
+	width: 220px;
+	height: 200px;
+}
+
+.form {
+	position: absolute;
+	height: 144px;
+	background-color: white;
+}
+
+.form input {
+	position: absolute;
+	top: 72px;
+	outline-style: none;
+	border: 3px solid red;
+	border-radius: 3px;
+	padding: 7px 0px;
+	width: 450px;
+	font-size: 24px;
+	font-family: "Microsoft soft";
+	background-color: transparent;
+	margin-left: 500px;
+}
+
+.form input:hover {
+	border-color: #DC143C;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #DC143C;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #DC143C;
+}
+
+.form button {
+	position: absolute;
+	top: 50%;
+	margin-left: 953px;
+	border: none;
+	border-radius: 2px;
+	width: 100px;
+	height: 52px;
+	background-color: #FF0000;
+	color: white;
+	font-size: 25px;
+	font-family: "bodoni mt black";
+}
+
+.form button:hover {
+	border-color: #DC143C;
+	background-color: #DC143C;
+}
+
+.icon-search {
+	background-image: url(../img/搜索3.png);
+	position: absolute;
+	top: 18%;
+	left: 40%;
+	z-index: 5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 35px;
+	background-color: transparent;
+	color: white;
+}
+
+.w_nav {
+	position: absolute;
+	top: 261px;
+	left: 19px;
+	height: 30px;
+	width: 1200px;
+	background-color: transparent;
+}
+
+.w_nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 30px;
+	background-color: transparent;
+}
+
+.w_nav li span {
+	color: #F5F5F5;
+	font-weight: 100;
+}
+
+.w_nav li:hover {
+	color: #DC143C;
+	;
+}
+
+.goods {
+	width: 1350px;
+	position: relative;
+	margin: 50px 120px;
+	float: left;
+}
+
+.good {
+	width: 180px;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	margin-left: 15px;
+	background-color: white;
+	float: left;
+	position: relative;
+}
+
+.good img {
+	width: 150px;
+	height: 150px;
+	margin-top: 35px;
+	margin-left: 15px;
+}
+
+.good .d_tags {
+	font-size: 15px;
+	width: 64px;
+	height: 20px;
+	position: absolute;
+	left: 45%;
+	margin-left: -21px;
+	color: white;
+	z-index: 10;
+	text-align: center;
+	line-height: 20px;
+	background-color: green;
+}
+
+.good .d_tags.dis {
+	background-color: red;
+}
+
+.good a {
+	background-color: white;
+}
+
+.good h3,
+h4,
+p,
+span {
+	background-color: white;
+	line-height: 30px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.good h4 {
+	color: #707070;
+	font-size: 10px;
+	font-weight: normal
+}
+
+.g_name {
+	width: 100px;
+	margin: 0 auto;
+}
+
+.g_price span {
+	color: crimson;
+}
+
+.g_price i {
+	background-color: transparent;
+	color: #D1D1D1;
+	font-weight: normal;
+	text-decoration: line-through;
+}
+
+.good:hover {
+	box-shadow: 0 25px 40px rgba(0, 0, 0, 0.1);
+	z-index: 2;
+}
+
+.page-footer {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1519px;
+	background-color: #DDDDDD;
+	margin-top: 30px;
+	text-align: center;
+	position: absolute;
+	top: 1800px;
+}
+
+.f_container {
+	margin-left: 150px;
+}
+
+.ts {
+	margin-bottom: 20px;
+}
+
+.ts li {
+	line-height: 25px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	margin: 0 auto;
+	margin-right: 80px;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: transparent;
+}
+
+.ts li img {
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+}
+
+.ts li a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: transparent;
+}
+
+.lt {
+	float: left;
+	width: 1000px;
+	overflow: hidden;
+	border-right: 2px solid #D1D1D1;
+	background-color: transparent;
+}
+
+.ts.nav {
+	border-top: 1px solid #707070;
+	padding-top: 40px;
+}
+
+.lt dl {
+	margin-right: 110px;
+	float: left;
+	margin-bottom: 20px;
+	background-color: transparent;
+}
+
+.gt {
+	width: 200px;
+	float: left;
+	background-color: transparent;
+	margin-top: 70px
+}
+
+.gt h3,
+h4,
+p {
+	background-color: transparent;
+	color: crimson;
+}
+
+.lt dt {
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	background-color: transparent;
+}
+
+.lt a {
+	text-decoration: none;
+	color: #696969;
+	background-color: transparent;
+}
+
+.lt a:hover {
+	background-color: #66AFE9;
+	color: white;
+}
+
+.lt dd {
+	line-height: 30px;
+	background-color: transparent;
+}
+
+.bot {
+	width: 1519px;
+	height: 200px;
+	padding-top: 30px;
+	background-image: linear-gradient(#DDDDDD, #EEEEEE);
+	position: absolute;
+	top: 2219px;
+}
+
+.text {
+	background-color: transparent;
+	text-align: center;
+}
+
+.f_list,
+a,
+span {
+	background-color: transparent;
+}
+
+.f_list {
+	text-align: center;
+}
+
+.f_list a {
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 100;
+}
+
+.text p,
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.text p {
+	font-size: 10px;
+	font-weight: 100;
+}
+
+.text p a:hover {
+	background-color: #ADD8E6;
+	color: white;
+}
