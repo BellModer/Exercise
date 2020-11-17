@@ -1,0 +1,25 @@
+# Log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test
+coverage
+
+# Dependency directories
+node_modules
+
+package-lock.json
+
+# build output
+es
+lib
+
+# IDE
+.idea
+.vscode
+
+.DS_Store
+
+# Local
+local.config.ts
